@@ -17,7 +17,7 @@
                             <!-- <span class="collection">Items In Collection:<br><strong>310/340</strong></span>
                 <span class="category">Category:<br><strong>Digital Crypto</strong></span> -->
                             <div class="main-button">
-                                <a href="explore.html">go to article</a>
+                                <a href="/article1">go to article</a>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             <!-- <span class="collection">Items In Collection:<br><strong>310/340</strong></span>
                 <span class="category">Category:<br><strong>Digital Crypto</strong></span> -->
                             <div class="main-button">
-                                <a href="explore.html">go to article</a>
+                                <a href="/article1">go to article</a>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                             <!-- <span class="collection">Items In Collection:<br><strong>310/340</strong></span>
                 <span class="category">Category:<br><strong>Digital Crypto</strong></span> -->
                             <div class="main-button">
-                                <a href="explore.html">go to article</a>
+                                <a href="/article1">go to article</a>
                             </div>
                         </div>
                     </div>

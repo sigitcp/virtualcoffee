@@ -1,5 +1,5 @@
 
-          <div class="categories counter-container mt-5">
+          <div class="categories counter-container mt-3">
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">

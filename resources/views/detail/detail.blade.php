@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-lg-5 align-self-center">
-                <h4 class="mb-4">Coffee Dummy 1</h4>
+                <h4 class="mb-4 mt-4">Coffee Dummy 1</h4>
                 <span class="author">
                     <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
                     <h6>Coffee Dummy 1<br><a href="#" target="blank">@Coffee_dummy1</a></h6>
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-12 mt-5">
+            <div class="col-lg-12 mt-4">
                 <div id="contact" action="" method="post">
                     <div class="row">
                         <iframe

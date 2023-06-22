@@ -14,46 +14,38 @@
     </div>
   </div>
 
-  <div class="author-page">
+  <div class="item-details-page" style="padding-bottom:50px">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="author">
-            <img src="assets/images/single-author.jpg" alt="" style="border-radius: 50%; max-width: 170px;">
-            <h4>Melanie Smith <br> <a href="#">@melanie32</a></h4>
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>This Is <em>Your Item</em> Preview.</h2>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="right-info">
-            <div class="row">
-              <div class="col-4">
-                <div class="info-item">
-                  <i class="fa fa-heart"></i>
-                  <h6>1238 <em>Likes</em></h6>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="info-item">
-                  <i class="fa fa-hand"></i>
-                  <h6>1238 <em>Likes</em></h6>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="info-item">
-                  <i class="fa fa-dollar"></i>
-                  <h6>1238 <em>Likes</em></h6>
-                </div>
-              </div>
+        <div class="col-lg-7">
+          <div class="left-image">
+            <img src="assets/images/create-yours.jpg" alt="" style="border-radius: 20px;">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h4 class="mb-2">Dolores Haze Westworld Eye</h4>
+          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row">
+            <div class="col-3">
+              <span class="bid">
+                Current Bid<br><strong>0.06 ETH</strong><br><em>($8055,35)</em>
+              </span>
             </div>
-            <div class="row">
-              <div class="col-5">
-                <h5>559 Followers</h5>
-              </div>
-              <div class="col-7">
-                <div class="main-button">
-                  <a href="#">Follow @melanie32</a>
-                </div>
-              </div>
+            <div class="col-4">
+              <span class="owner">
+                Owner<br><strong>Alan Smithee</strong><br><em>(@asmithee)</em>
+              </span>
+            </div>
+            <div class="col-5">
+              <span class="ends">
+                Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
+              </span>
             </div>
           </div>
         </div>
@@ -83,7 +75,7 @@
             <div class="icon">
               <img src="assets/images/icon-02.png" alt="">
             </div>
-            <h4>Virtual Coffee Shop Experience:</h4>
+            <h4>Virtual Coffee Shop Experience</h4>
             <p>We are a platform that brings a unique and innovative virtual coffee shop experience to you. Through virtual tour technology, we allow you to explore your favorite coffee shops in Pontianak without leaving the comfort of your home. Enjoy the beautiful interior designs, savor the aroma of fresh coffee, and discover intriguing corners of coffee shops, all in an immersive virtual environment.</p>
           </div>
         </div>
