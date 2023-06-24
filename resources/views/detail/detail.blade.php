@@ -63,16 +63,18 @@
                     <div class="row">
                         <div class="col-lg-6 col-sm-6">
                             <span class="author">
-
                             </span>
-                            <img src="assets/images/discover-01.jpg" alt="" style="border-radius: 20px;"
-                                onclick="openModal('assets/images/current-01.jpg')">
+                            <a href="assets/images/indor1.jpg" data-fancybox="gallery1" data-caption="Indoor">
+                                <img src="assets/images/indor1th.jpg" style="border-radius: 20px;"  alt="" class="zoomable-image">
+                            </a>
                             <h4>Indoor</h4>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <span class="author">
                             </span>
-                            <img src="assets/images/discover-02.jpg" alt="" style="border-radius: 20px;">
+                            <a href="assets/images/outdor1.jpg" data-fancybox="gallery1" data-caption="Outdoor">
+                                <img src="assets/images/outdor1th.jpg" style="border-radius: 20px;"  alt="" class="zoomable-image">
+                            </a>
                             <h4>Outdoor</h4>
                         </div>
                     </div>
@@ -85,8 +87,10 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;">
-                            <h4>Signature menu 1</h4>
+                            <a href="assets/images/menu1.jpg" data-fancybox="gallery2" data-caption="Menu">
+                                <img src="assets/images/menu.jpg" style="border-radius: 20px;"  alt="" class="zoomable-image">
+                            </a>
+                            <h4>Menu</h4>
                         </div>
                     </div>
                 </div>
@@ -154,10 +158,5 @@
     </div>
 </div>
 
-<div id="myModal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img class="modal-content" id="modalImage" src="assets/images/current-01.jpg" alt="">
-</div>
-<script src="script.js"></script>
 
 @include('layouts.footer')
