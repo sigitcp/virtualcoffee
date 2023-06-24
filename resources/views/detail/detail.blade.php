@@ -12,7 +12,7 @@
             <div class="col-lg-7 ">
                 <div class="left-img item ">
                     {{-- <img src="assets/images/item-details-01.jpg" alt="" style="border-radius: 20px;"> --}}
-                    <iframe src="https://my.matterport.com/show/?m=FKzJ7YqfFXP&play=1" style="border-radius: 20px;" width="650" height="500"></iframe>
+                    <iframe src="https://my.matterport.com/show/?m=FKzJ7YqfFXP&play=1"  style="border-radius: 20px;" height="500" width="100%" ></iframe>
                 </div>
             </div>
             <div class="col-lg-5 align-self-center">
