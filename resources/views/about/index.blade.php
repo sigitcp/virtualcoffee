@@ -20,7 +20,7 @@
         <div class="col-lg-12">
           <div class="section-heading">
             <div class="line-dec"></div>
-            <h2>This Is <em>Your Item</em> Preview.</h2>
+            <h2>This Is <em>Virtual Coffee</em> Preview.</h2>
           </div>
         </div>
         <div class="col-lg-7">
@@ -29,25 +29,8 @@
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <h4 class="mb-2">Dolores Haze Westworld Eye</h4>
-          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="row">
-            <div class="col-3">
-              <span class="bid">
-                Current Bid<br><strong>0.06 ETH</strong><br><em>($8055,35)</em>
-              </span>
-            </div>
-            <div class="col-4">
-              <span class="owner">
-                Owner<br><strong>Alan Smithee</strong><br><em>(@asmithee)</em>
-              </span>
-            </div>
-            <div class="col-5">
-              <span class="ends">
-                Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
-              </span>
-            </div>
-          </div>
+          <h4 class="mb-3 mt-3">About Virtual Coffee</h4>
+          <p>We bring the charm of coffee shops in Pontianak right to your fingertips through captivating virtual tours. Discover a variety of coffee shops with unique ambiance, menus, and offerings. Immerse yourself in inviting interiors, savor the aroma of fresh coffee, and uncover hidden corners that make each coffee shop special. Get essential information like opening hours, locations, and specialty coffees. Be part of this virtual journey and indulge in unforgettable coffee experiences.</p>
         </div>
       </div>
     </div>

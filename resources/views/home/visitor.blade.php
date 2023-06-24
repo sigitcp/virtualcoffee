@@ -39,7 +39,7 @@
                       </div>
                 </div>
               </div>
-
+              <script src="assets/js/counter.js"></script>
             </div>
           </div>
         </div>

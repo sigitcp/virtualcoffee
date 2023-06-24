@@ -11,11 +11,12 @@
             </div>
             <div class="col-lg-7 ">
                 <div class="left-img item ">
-                    <img src="assets/images/item-details-01.jpg" alt="" style="border-radius: 20px;">
+                    {{-- <img src="assets/images/item-details-01.jpg" alt="" style="border-radius: 20px;"> --}}
+                    <iframe src="https://my.matterport.com/show/?m=FKzJ7YqfFXP&play=1" style="border-radius: 20px;" width="650" height="500"></iframe>
                 </div>
             </div>
             <div class="col-lg-5 align-self-center">
-                <h4 class="mb-4 mt-4">Coffee Dummy 1</h4>
+                <h4 class="mb-4">Coffee Dummy 1</h4>
                 <span class="author">
                     <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
                     <h6>Coffee Dummy 1<br><a href="#" target="blank">@Coffee_dummy1</a></h6>
