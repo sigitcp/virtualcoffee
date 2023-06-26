@@ -262,25 +262,42 @@
         });
     }
 
-
-	
-
-
 })(window.jQuery);
 
-function openModal(imageSrc) {
-  var modal = document.getElementById("myModal");
-  var modalImage = document.getElementById("modalImage");
-  modal.style.display = "block";
-  modalImage.src = imageSrc;
-}
-
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
 
 
 
 
 
+    // Ambil elemen input range (progres bar)
+    var progressBar = document.getElementById('slider-progress');
+
+    // Ambil elemen slider
+    var slider = document.querySelector('.slider');
+
+    // Tambahkan event listener untuk mengatur pergantian foto saat progres bar digeser
+    progressBar.addEventListener('input', function() {
+      var currentValue = parseInt(progressBar.value);
+      slider.style.transform = 'translateX(-' + currentValue * 100 + '%)';
+      stopAutoSlide(); // Menghentikan pergantian foto otomatis saat progres bar digeser
+    });
+
+    var currentIndex = 0;
+    var intervalId;
+
+    function autoSlide() {
+      currentIndex = (currentIndex + 1) % 12;
+      slider.style.transform = 'translateX(-' + currentIndex * 100 + '%)';
+      progressBar.value = currentIndex;
+    }
+
+    function startAutoSlide() {
+      intervalId = setInterval(autoSlide, 100); // Ubah durasi transisi di sini (dalam milidetik)
+    }
+
+    function stopAutoSlide() {
+      clearInterval(intervalId);
+    }
+
+    startAutoSlide();
  

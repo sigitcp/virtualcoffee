@@ -12,7 +12,7 @@
             <div class="col-lg-7 ">
                 <div class="left-img item ">
                     {{-- <img src="assets/images/item-details-01.jpg" alt="" style="border-radius: 20px;"> --}}
-                    <iframe src="https://my.matterport.com/show/?m=FKzJ7YqfFXP&play=1"  style="border-radius: 20px;" height="500" width="100%" ></iframe>
+                    {{-- <iframe src="https://my.matterport.com/show/?m=FKzJ7YqfFXP&play=1"  style="border-radius: 20px;" height="500" width="100%" ></iframe> --}}
                 </div>
             </div>
             <div class="col-lg-5 align-self-center">
@@ -91,7 +91,7 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <a href="assets/images/menu1.jpg" data-fancybox="gallery2" data-caption="Menu">
+                            <a href="assets/images/menu2.jpg" data-fancybox="gallery2" data-caption="Menu">
                                 <img src="assets/images/menu.jpg" style="border-radius: 20px;" alt=""
                                     class="zoomable-image">
                             </a>
@@ -107,9 +107,9 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;"
+                            <img src="assets/images/signature2.jpg" alt="" style="border-radius: 20px;"
                                 data-bs-toggle="modal" data-bs-target="#sliderModal">
-                            <h4>Signature menu 2 </h4>
+                            <h4>Signature menu 1 </h4>
                         </div>
                     </div>
                 </div>
@@ -121,8 +121,8 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;">
-                            <h4>Signature menu 3</h4>
+                            <img src="assets/images/signature3.jpg" alt="" style="border-radius: 20px;">
+                            <h4>Signature menu 4</h4>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;">
+                            <img src="assets/images/signature4.jpg" alt="" style="border-radius: 20px;">
                             <h4>Signature menu 4</h4>
                         </div>
                     </div>
@@ -163,11 +163,17 @@
         </div>
     </div>
 </div>
+
+
+
 <!-- Modal Slider -->
 <div class="modal fade" id="sliderModal" tabindex="-1" aria-labelledby="sliderModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+                <div class="slider-container">
                     <div class="slider">
                         <div class="slide">
                             <img src="assets/images/1.png" alt="1">
@@ -206,24 +212,11 @@
                             <img src="assets/images/6.png" alt="5">
                         </div>
                     </div>
-                    <input class="mt-3" type="range" id="slider-progress" min="0" max="11" value="1" step="1">
-
-
+                    <input class="mt-3 mb-3" type="range" id="slider-progress" min="0" max="11" value="0" step="1">
+                </div>
         </div>
     </div>
 </div>
 
-<script>
-    // Ambil elemen input range (progres bar)
-    var progressBar = document.getElementById('slider-progress');
 
-    // Ambil elemen slider
-    var slider = document.querySelector('.slider');
-
-    // Tambahkan event listener untuk mengatur pergantian foto saat progres bar digeser
-    progressBar.addEventListener('input', function() {
-        var currentValue = parseInt(progressBar.value);
-        slider.style.transform = 'translateX(-' + currentValue * 100 + '%)';
-    });
-</script>
 @include('layouts.footer')
