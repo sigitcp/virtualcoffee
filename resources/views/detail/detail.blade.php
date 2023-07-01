@@ -91,7 +91,7 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <a href="assets/images/menu2.jpg" data-fancybox="gallery2" data-caption="Menu">
+                            <a href="assets/images/menu1.jpg" data-fancybox="gallery2" data-caption="Menu">
                                 <img src="assets/images/menu.jpg" style="border-radius: 20px;" alt=""
                                     class="zoomable-image">
                             </a>
@@ -122,7 +122,7 @@
                             <span class="author">
                             </span>
                             <img src="assets/images/signature3.jpg" alt="" style="border-radius: 20px;">
-                            <h4>Signature menu 4</h4>
+                            <h4>Signature menu 2</h4>
                         </div>
                     </div>
                 </div>
@@ -134,8 +134,34 @@
                         <div class="col-lg-12">
                             <span class="author">
                             </span>
-                            <img src="assets/images/signature4.jpg" alt="" style="border-radius: 20px;">
-                            <h4>Signature menu 4</h4>
+                            <img src="assets/images/food.jpg" alt="" style="border-radius: 20px;">
+                            <h4>Food</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="author">
+                            </span>
+                            <img src="assets/images/been.jpg" alt="" style="border-radius: 20px;">
+                            <h4>Been 1</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="author">
+                            </span>
+                            <img src="assets/images/been1.jpg" alt="" style="border-radius: 20px;">
+                            <h4>Been 2</h4>
                         </div>
                     </div>
                 </div>
@@ -144,21 +170,21 @@
             <div class="col-lg-12 mt-4">
                 <div id="contact" action="" method="post">
                     <div class="row">
-                        <iframe
+                        {{-- <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4544242622254!2d109.33556941515052!3d-0.03202636398076336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d599c26700f2b%3A0xd48158fd2c9e765!2zRnJhbmNv4oCZcyBDYWZl!5e0!3m2!1sen!2sid!4v1686905135244!5m2!1sen!2sid"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-12">
+            {{-- <div class="col-lg-12">
                 <div id="contact" action="" method="post">
                     <div class="row">
                         <h4>popular times google/google review</h4>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </div>
@@ -172,48 +198,49 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-                <div class="slider-container">
-                    <div class="slider">
-                        <div class="slide">
-                            <img src="assets/images/1.png" alt="1">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/2.png" alt="2">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/3.png" alt="3">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/4.png" alt="4">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/5.png" alt="5">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/6.png" alt="5">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/1.png" alt="5">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/2.png" alt="1">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/3.png" alt="2">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/4.png" alt="3">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/5.png" alt="4">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/6.png" alt="5">
-                        </div>
+            </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="assets/images/1.png" alt="1">
                     </div>
-                    <input class="mt-3 mb-3" type="range" id="slider-progress" min="0" max="11" value="0" step="1">
+                    <div class="slide">
+                        <img src="assets/images/2.png" alt="2">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/3.png" alt="3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/4.png" alt="4">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/5.png" alt="5">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/6.png" alt="5">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/1.png" alt="5">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/2.png" alt="1">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/3.png" alt="2">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/4.png" alt="3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/5.png" alt="4">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/6.png" alt="5">
+                    </div>
                 </div>
+                <input class="mt-3 mb-3" type="range" id="slider-progress" min="0" max="11"
+                    value="0" step="1">
+            </div>
         </div>
     </div>
 </div>

@@ -59,14 +59,12 @@
                         <div class="row">
                             <div class="col-lg-7">
                                 <div class="left-image">
-                                    <img src="assets/images/create-yours.jpg" alt="" style="border-radius: 20px;">
+                                    <img src="assets/images/article1.png" alt="" style="border-radius: 20px;">
                                 </div>
                             </div>
                             <div class="col-lg-5 align-self-center">
-                                <h4>Dolores Haze Westworld Eye</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magn ipsum dolor sit amet, consectetu dipiscingei elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4>Explore New Experiences with Virtual Coffee: Virtual Tour for Coffee Lovers</h4>
+                                <p>One of the newest innovations that has caught the interest of coffee lovers is Virtual Coffee, a virtual tour platform that allows you to explore coffee shops virtually.</p>
                                 <a href="/article1">More....</a>
                             </div>
                         </div>

@@ -279,25 +279,25 @@
     progressBar.addEventListener('input', function() {
       var currentValue = parseInt(progressBar.value);
       slider.style.transform = 'translateX(-' + currentValue * 100 + '%)';
-      stopAutoSlide(); // Menghentikan pergantian foto otomatis saat progres bar digeser
+    //   stopAutoSlide(); Menghentikan pergantian foto otomatis saat progres bar digeser
     });
 
     var currentIndex = 0;
     var intervalId;
 
-    function autoSlide() {
-      currentIndex = (currentIndex + 1) % 12;
-      slider.style.transform = 'translateX(-' + currentIndex * 100 + '%)';
-      progressBar.value = currentIndex;
-    }
+    // function autoSlide() {
+    //   currentIndex = (currentIndex + 1) % 12;
+    //   slider.style.transform = 'translateX(-' + currentIndex * 100 + '%)';
+    //   progressBar.value = currentIndex;
+    // }
 
-    function startAutoSlide() {
-      intervalId = setInterval(autoSlide, 100); // Ubah durasi transisi di sini (dalam milidetik)
-    }
+    // function startAutoSlide() {
+    //   intervalId = setInterval(autoSlide, 100); // Ubah durasi transisi di sini (dalam milidetik)
+    // }
 
-    function stopAutoSlide() {
-      clearInterval(intervalId);
-    }
+    // function stopAutoSlide() {
+    //   clearInterval(intervalId);
+    // }
 
     startAutoSlide();
  

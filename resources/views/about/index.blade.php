@@ -25,7 +25,7 @@
         </div>
         <div class="col-lg-7">
           <div class="left-image">
-            <img src="assets/images/create-yours.jpg" alt="" style="border-radius: 20px;">
+            <img src="assets/images/about.gif" alt="" style="border-radius: 20px;">
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
