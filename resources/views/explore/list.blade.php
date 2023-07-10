@@ -26,8 +26,8 @@
               <div class="col-lg-12">
                 <span class="author">
                 </span>
-                <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;">
-                <h4>Coffee Dummy 1</h4>
+                <img src="assets/images/figaro.png" alt="" style="border-radius: 20px;">
+                <h4>Figaro Coffee House</h4>
               </div>
               <div class="col-lg-12">
                 <div class="line-dec"></div>
@@ -55,8 +55,8 @@
               <div class="col-lg-12">
                 <span class="author">
                 </span>
-                <img src="assets/images/discover-04.jpg" alt="" style="border-radius: 20px;">
-                <h4>ACoffee Dummy 2</h4>
+                <img src="assets/images/dummy.png" alt="" style="border-radius: 20px;">
+                <h4>Coffee Dummy 2</h4>
               </div>
               <div class="col-lg-12">
                 <div class="line-dec"></div>
@@ -71,7 +71,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="">View Details</a>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@
               <div class="col-lg-12">
                 <span class="author">
                 </span>
-                <img src="assets/images/discover-03.jpg" alt="" style="border-radius: 20px;">
+                <img src="assets/images/dummy.png" alt="" style="border-radius: 20px;">
                 <h4>Coffee Dummy 3</h4>
               </div>
               <div class="col-lg-12">
@@ -100,7 +100,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="">View Details</a>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@
               <div class="col-lg-12">
                 <span class="author">
                 </span>
-                <img src="assets/images/discover-04.jpg" alt="" style="border-radius: 20px;">
+                <img src="assets/images/dummy.png" alt="" style="border-radius: 20px;">
                 <h4>Coffee Dummy 4</h4>
               </div>
               <div class="col-lg-12">
@@ -129,70 +129,13 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="">View Details</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 all msc vtr">
-          <div class="item mb-5">
-            <div class="row">
-              <div class="col-lg-12">
-                <span class="author">
-                </span>
-                <img src="assets/images/discover-06.jpg" alt="" style="border-radius: 20px;">
-                <h4>Coffee Dummy 5</h4>
-              </div>
-              <div class="col-lg-12">
-                <div class="line-dec"></div>
-                <div class="row">
-                  <div class="col-6">
-                    <span>Virtual Tour:<br><strong>Soon</strong></span>
-                  </div>
-                  <div class="col-6">
-                    <span>Update:<br> <strong>Nov 2023</strong></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="main-button">
-                  <a href="details.html">View Details</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 all dig blc ">
-          <div class="item mb-5">
-            <div class="row">
-              <div class="col-lg-12">
-                <span class="author">
-                </span>
-                <img src="assets/images/discover-05.jpg" alt="" style="border-radius: 20px;">
-                <h4>Coffee Dummy 6</h4>
-              </div>
-              <div class="col-lg-12">
-                <div class="line-dec"></div>
-                <div class="row">
-                  <div class="col-6">
-                    <span>Virtual Tour:<br><strong>Soon</strong></span>
-                  </div>
-                  <div class="col-6">
-                    <span>Update:<br> <strong>Nov 2023</strong></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="main-button">
-                  <a href="details.html">View Details</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
       </div>

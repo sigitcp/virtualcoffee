@@ -68,7 +68,7 @@
               <h6>2</h6>
             </div>
             <div class="icon">
-              <img src="assets/images/icon-04.png" alt="">
+              <img src="assets/images/icon-01.png" alt="">
             </div>
             <h4>Supporting the Local Coffee Industry</h4>
             <p>We take pride in supporting the local coffee industry in Pontianak. We collaborate with the finest cafes in the city to provide an authentic virtual experience. Through our platform, you can explore popular coffee shops, indulge in diverse coffee menus, and gather comprehensive information about each cafe. We are committed to promoting local cafes and connecting coffee enthusiasts with the best places</p>
@@ -77,7 +77,7 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="icon">
-              <img src="assets/images/icon-06.png" alt="">
+              <img src="assets/images/icon-04.png" alt="">
             </div>
             <h4>Exploring the Coffee World</h4>
             <p>Virtual Tour Coffee Shop invites you to experience the authentic sensation of coffee and discover new places that will make you fall in love with coffee over and over again. Through interactive features, you can interact with other visitors and share your virtual coffee shop experiences. We bring you an engaging coffee shop experience and enable you to explore the world of coffee in Pontianak in a fresh and thrilling way.</p>
@@ -86,6 +86,68 @@
       </div>
     </div>
   </div>
+
+
+  <div class="author-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="author">
+            <img src="assets/images/saweria.png" alt="" style="border-radius: 50%; max-width: 240px;" data-toggle="modal" data-target="#myModal">
+            <h4>Give us a cup of coffee, <br> and we'll espresso our gratitude!<br> <a href="#">@virtual_coffee</a></h4>
+          </div>
+          
+        </div>
+        <div class="col-lg-6">
+          <div class="right-info">
+            <div class="row">
+              <div class="col-6">
+                <div class="info-item">
+                  <i class="fa fa-heart"></i>
+                  <h6><em>Your support fuels our operations and development. Much appreciated!</em></h6>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="info-item">
+                  <i class="fa fa-dollar"></i>
+                  <h6><em>Your donation fuels our development journey. Thank for your flavorful support!</em></h6>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="main-button">
+                  <a href="https://www.saweria.co/widgets/leaderboard?streamKey=4b6c8ea09207ad6225ac35f452a0e432" target="blank">Leaderboard</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Header Modal -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Konten Modal -->
+        <div class="modal-body">
+          <img src="assets/images/saweria.png" class="img-fluid" alt="Gambar Pop-up">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tautan Skrip Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   @endsection
 

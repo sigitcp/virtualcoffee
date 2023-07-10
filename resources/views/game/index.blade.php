@@ -39,7 +39,7 @@
                                     <div class="col-lg-12">
                                         <span class="author">
                                         </span>
-                                        <img src="assets/images/discover-03.jpg" alt=""
+                                        <img src="assets/images/bounce.jpg" alt=""
                                             style="border-radius: 20px;">
                                         <h4>Bounce</h4>
                                     </div>
@@ -60,7 +60,7 @@
                                     <div class="col-lg-12">
                                         <span class="author">
                                         </span>
-                                        <img src="assets/images/discover-03.jpg" alt=""
+                                        <img src="assets/images/snake.jpg" alt=""
                                             style="border-radius: 20px;">
                                         <h4>Snake</h4>
                                     </div>
@@ -81,7 +81,7 @@
                                     <div class="col-lg-12">
                                         <span class="author">
                                         </span>
-                                        <img src="assets/images/discover-03.jpg" alt=""
+                                        <img src="assets/images/maze.png" alt=""
                                             style="border-radius: 20px;">
                                         <h4>Maze</h4>
                                     </div>
